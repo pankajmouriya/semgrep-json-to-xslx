@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open("/home/runner/work/invideo-backend/invideo-backend/result.json", "r") as f:
+with open("result.json", "r") as f:
     data = json.load(f)
 
 results = data.get("results") # This is a list of python dictionaries

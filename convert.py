@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open("./result.json", "r") as f:
+with open("result.json", "r") as f:
     data = json.load(f)
 
 results = data.get("results") # This is a list of python dictionaries
